@@ -14,18 +14,8 @@ PROXY_PASS = "..."
 
 # --- Hotels list ---
 HOTELS_LIST = [
-    {
-        "city": "",
-        "country": "",
-        "hotel_name": "",
-        "url": ""
-    },
-    {
-        "city": "",
-        "country": "",
-        "hotel_name": "",
-        "url": ""
-    }
+    {"location": "city, country", "url": ""},
+    {"location": "city, country", "url": ""},
 ]
 OUTPUT_FILE = "scraped_expedia.csv"
 TARGET_REVIEWS_PER_HOTEL = 30
@@ -217,3 +207,4 @@ if __name__ == "__main__":
 
     driver.quit()
     print("Done.")
+
