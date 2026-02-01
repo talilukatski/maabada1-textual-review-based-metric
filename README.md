@@ -1,8 +1,8 @@
-# Text-Based Hotel Category Scoring Index
+# A Textual Review Based Metric for Hotel Category Ratings
 
-Our project introduces a new scoring index for hotel categories, based only on textual reviews.
+Our project introduces a new scoring metric for hotel categories, based only on textual reviews.
 
----
+
 
 ## Project Notebook
 
@@ -13,7 +13,7 @@ To run the notebook, the Azure SAS token must be added in the sections marked wi
 The notebook is provided without outputs in order to preserve data confidentiality, as required by the assignment.  
 If needed, we also have a version of the notebook with full outputs.
 
----
+
 
 ## Scraping
 
@@ -25,7 +25,7 @@ Each file can be executed using:
 python -m run scraper/file.py  
 where `file` is one of the files in the directory.
 
----
+
 
 ## Interface
 
@@ -36,7 +36,7 @@ To run the interface, the following files must be added to the directory from Az
 - `scraped_booking_real_scores.csv`
 
 Dependencies are installed using:
-python -m pip install -r requirements.txt
+python -m pip install -r interface/requirements.txt
 
 The interface is run using:
-python -m streamlit run main.py
+python -m streamlit run interface/main.py
